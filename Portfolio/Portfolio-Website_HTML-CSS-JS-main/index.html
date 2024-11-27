@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Md. Rabby Hossain Khan - Personal Portfolio Website</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/e6b8371d90.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/images/logo.png" alt="logo image" class="logo" />
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#works">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Network Engineer</p>
+                <h1>
+                    Hi, I'm <span>Rabby</span> <br />
+                     From Bangladesh
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Network Engineer with 1 year of experience in designing and
+                        maintaining network infrastructures as a student. Possess key skills like
+                        troubleshooting, cloud network services expertise, and excellent
+                        communication, coupled with a strong passion for technology. Dedicated
+                        to delivering innovative solutions and exceeding client expectations.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Networking</span><br>Designing Network Infrastructure</li>
+                            <li><span>Web Development</span><br>Web app development</li>
+                            <li><span>DevOps</span><br>Server Maintainance</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Network Designig at DIU Data Center</li>
+                            <li><span>2022 - 2023</span><br>Junior Web Developer at DocTime</li>
+                            <li><span>2021 - 2022</span><br>Internship at Bkash</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>BSC at Daffodil International University</li>
+                            <li><span>2019</span><br>HSC from Ideal College, Dhanmondi</li>
+                            <li><span>2017</span><br>SSC from Mohammadpur Govt. High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Networking</h2>
+                    <p>Worked within a team to implement, troubleshoot, and maintain network hardware and software.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Web Development</h2>
+                    <p>I have completed tasks such as front-end and back-end development, optimizing performance, ensuring responsive design, and integrating databases and APIs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>My experience involves designing, building, and maintaining mobile or desktop applications using programming languages like Java, Swift, Kotlin, or frameworks like Flutter and React Native.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Works section -->
+    <div id="works">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="works-list">
+                <div class="work">
+                    <img src="assets\images\work-1.png" alt="work-1">
+                    <div class="layer">
+                        <h3>DIU Data Center</h3>
+                        <p>Lead a team that designed and implemented a secure virtual
+                            andphysical network infrastructure, improving overall network
+                            performance by 25%.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/images/work-2.png" alt="work-2">
+                    <div class="layer">
+                        <h3>DocTime</h3>
+                        <p>I have worked in DocTime. Which involves creating user-friendly interfaces, integrating secure payment gateways, and ensuring responsive design. It requires implementing features like real-time inventory updates and debugging to deliver a seamless shopping experience.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/images/work-3.png" alt="work-3">
+                    <div class="layer">
+                        <h3>Bkash</h3>
+                        <p>Developing an application like Bkash involves creating an intuitive interface, integrating audio streaming features, and optimizing performance for smooth playback. It includes implementing features like playlists, search functionality, and offline access while ensuring seamless user experience across devices.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>rabbyh028@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>+8801616770966</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="assets\MdRabbyHossainKhanResume.pdf" class="btn btn2" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©️ Md. Rabby Hossain Khan. Made with <i class="fa-solid fa-heart"></i> by <a href="#">Md. Rabby Hossain Khan</a></p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
